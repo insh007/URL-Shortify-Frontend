@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Project - URLShortify Frontened
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Make sure to check Backend Repository :
+https://github.com/insh007/URLShortify-Backend
 
-## Available Scripts
+## Deploy Link :
+https://url-shortify-app.onrender.com
 
-In the project directory, you can run:
+A simple MERN stack application for shortening long URLs, inspired by services like TinyURL and Bitly.
 
-### `npm start`
+## Screenshots
+The following screenshots provide a visual representation of the app:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+###### Screenshot 1
+![URL Shortify](./screenshots/screenshot1.png "URL Shortify Screenshot 1")
+<br>
+<br>
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+###### Screenshot 2
+![URL Shortify](./screenshots/screenshot2.png "URL Shortify Screenshot 2")
+<br>
+<br>
+<br>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Table of Contents
+1. Description
+2. Demo
+3. Features
+4. Technologies
+5. Installation
+6. Usage 
+7. Contributing
 
-### `npm run build`
+## Description
+This application provides a user-friendly interface for shortening long URLs into shorter ones. The user can enter a long URL, and the application will generate a shorter URL that can be used in place of the original.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Demo
+A live demo of the application can be found at https://url-shortify-app.onrender.com.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features
+The following features are currently implemented:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Shorten long URLs
+2. Copy the shortened URL to the clipboard
+3. Redirect users to the original URL when they use the shortened URL
+ 
+## Technologies
+This application uses the following technologies:
 
-### `npm run eject`
+1. MongoDB
+2. Express
+3. React
+4. Node.js
+5. HTML
+6. CSS
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Installation
+To run the application locally, follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+git clone https://github.com/<your-username>/url-shortener.git
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Install dependencies in both the client and server folders
+```
+cd shortify && npm install
+```
 
-## Learn More
+3. Start the server and client
+```
+npm start 
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
+To shorten a URL, simply enter it into the input field on the home page and click "Shorten". The application will generate a shorter URL that can be used in place of the original.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To view a list of previously shortened URLs, click on the "View All" button in the navigation bar.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributing
+Contributions are always welcome! If you have any ideas or suggestions for improvement, feel free to open an issue or submit a pull request.
