@@ -62,7 +62,7 @@ To run the application locally, follow these steps:
 1. Clone the repository
 
 ```
-git clone https://github.com/<your-username>/url-shortener.git
+git clone https://github.com/insh007/URL-Shortify-Frontend
 ```
 
 2. Install dependencies in both the client and server folders
