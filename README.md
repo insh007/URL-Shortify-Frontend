@@ -65,20 +65,18 @@ To run the application locally, follow these steps:
 git clone https://github.com/insh007/URL-Shortify-Frontend
 ```
 
-2. Install dependencies in both the client and server folders
+2. Install dependencies
 ```
-cd shortify && npm install
+npm install
 ```
 
-3. Start the server and client
+3. Start the server
 ```
-npm start 
+cd shortify & npm start 
 ```
 
 ## Usage
 To shorten a URL, simply enter it into the input field on the home page and click "Shorten". The application will generate a shorter URL that can be used in place of the original.
-
-To view a list of previously shortened URLs, click on the "View All" button in the navigation bar.
 
 ## Contributing
 Contributions are always welcome! If you have any ideas or suggestions for improvement, feel free to open an issue or submit a pull request.
