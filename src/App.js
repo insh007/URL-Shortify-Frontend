@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Background from './componenets/Background';
+import Home from './componenets/Home';
+import LinkResult from './componenets/LinkResult';
+
 
 function App() {
+  const [inputValue, setInputValue] = useState("")
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container" >
+      {/* <Home setInputValue={setInputValue} />
+      <Background/>
+      <LinkResult inputValue={inputValue}  /> */}
+      <Home setInputValue={setInputValue} ></Home>
+      <Background></Background>
+      <LinkResult inputValue={inputValue} ></LinkResult>
     </div>
   );
 }
