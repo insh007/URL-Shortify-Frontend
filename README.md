@@ -1,4 +1,4 @@
-# Project - URLShortify Frontened
+# Project - URLShortify Frontend
 
 ## Make sure to check Backend Repository :
 https://github.com/insh007/URLShortify-Backend
